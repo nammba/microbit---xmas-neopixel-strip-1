@@ -1,4 +1,4 @@
-input.onButtonPressed(Button.A, function () {
+input.onButtonPressed(Button.AB, function () {
     strip.clear()
     strip.show()
     if (mode == Number_of_Modes) {
@@ -46,7 +46,5 @@ basic.forever(function () {
         basic.pause(20)
         strip.rotate(1)
         strip.show()
-    } else {
-    	
     }
 })
